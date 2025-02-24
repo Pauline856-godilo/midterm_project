@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.hero {
+  background: url('../img/cs.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  min-height: 60vh;
+  z-index: 1;
+}
+.hero .container{
+  z-index: 999;
+}
+.card{
+    transition: .1s;
+}
+.card:hover{
+  background: #e6e3e3;
+}
+.card i {
+  font-size: 40px;
+  color: #007bff;
+}
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
