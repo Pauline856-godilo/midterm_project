@@ -12,10 +12,22 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <style>
-        section{
+        section, body{
             width: 100vw;
             height: 100vh;
             overflow-x: hidden;
+        }
+
+        .large-image {
+            width: 80%;
+            max-width: 900px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .large-image:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -103,6 +115,24 @@
                 <li>Adding password strength checker page</li>
                 <li>Adding about us page</li>
             </ul>
+        </div>
+    </section>
+
+    <section id="deployment" class="text-center" style="height: auto;">
+        <h2 class="text-4xl font-bold text-green-300 mb-5">Deployment</h2>
+        <div class="container mx-auto w-3/4 text-gray-300 mt-3">
+            <p>Pushing project to github repo</p>
+        <img src="./assets/img/deployment/push.png" alt="Deployment Process" class="large-image">
+        </div>
+
+        <div class="container mx-auto w-3/4 text-gray-300 mt-5 pt-5">
+            <p>Deploy on vercel</p>
+            <img src="./assets/img/deployment/deploy.png" alt="Deployment Process" class="large-image">
+        </div>
+
+        <div class="container mx-auto w-3/4 text-gray-300 mt-5 pt-5">
+            <p>Live and accessable on web</p>
+        <img src="./assets/img/deployment/live.png" alt="Deployment Process" class="large-image">
         </div>
     </section>
 
